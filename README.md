@@ -53,7 +53,7 @@ What you want is one wire connected to the fourth pin from the left on the main 
 Connecting the wires, like shown in the basic design above, to the doorbell switch gives me the funcitonality I wanted. However, this means that the main bell is no longer working. If you are fine with that, you are done.
 
 For me, I dont have 100% confidence in the chain:
-> ZigBee -> homebridge -> HomeKit -> Apple TV (HomeHub) -> iPhone
+ - ZigBee -> homebridge -> HomeKit -> Apple TV (HomeHub) -> iPhone
 
 Thats why I went on to the "advanced" design, as shown below.
 
@@ -78,8 +78,10 @@ Ideal would be to add a larger delay, so that even if the bell is pressed repeat
 ## The end design
 After alot of experimenting with different relays, capacitors and resistors i landed in something like this:
 
-<img src="img/my_design.png?raw=true" height="400" alt="My design" title="My design">
+<img src="img/my_design.png?raw=true" height="600" alt="My design" title="My design">
 
+## NB!
+Note that if you have some other doorbell-circuit you want to include, and don't want the delay-stuff, you can skip the capacitor and the resistor. You also want to connect the bell-circuit to the normally open side in the relay.
 
 > TODO: add a picture of the finished product.
 
