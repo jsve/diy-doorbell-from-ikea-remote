@@ -80,12 +80,10 @@ After alot of experimenting with different relays, capacitors and resistors i la
 
 <img src="img/my_design.png?raw=true" height="600" alt="My design" title="My design">
 
-## NB!
-Note that if you have some other doorbell-circuit you want to include, and don't want the delay-stuff, you can skip the capacitor and the resistor. You also want to connect the bell-circuit to the normally open side in the relay.
-
 > TODO: add a picture of the finished product.
 
-
+## NB!
+Note that if you have some other doorbell-circuit you want to include, and don't want the delay-stuff, you can skip the capacitor and the resistor. You also want to connect the bell-circuit to the normally open side in the relay.
 
 # For other / future projects
 For anyone wanting to map all of the buttons from the remote, there are some information in the links above, but also [here](http://www.jakobbieling.de/projects/tradfri/). 
