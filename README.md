@@ -29,9 +29,10 @@ Using a xiaomi button or similar might be cheaper, but delivery times to Sweden 
 ## Opening up the TRÅDFRI remote
 There are two ways to get into the remote. You can either break your way in, from the buttons-side, like [this guy](https://www.automatiserar.se/ikeas-tradlos-med-arduino/) did. The other way in is through the side, using a saw or a dremel, like [this guy](https://www.youtube.com/watch?v=olxPqiJcUAQ).
 
-I chose the second way - the dremel. On the side of the remote there is a small ridge in the grey plastic. This is pretty much where you want to make the cut. Maybe a little bit towards the "battery side", which will reduce the risk of damaging any components.
+I chose the second way - the dremel. On the side of the remote there is a small ridge in the grey plastic. This is pretty much where you want to make the cut. Maybe a little bit towards the "battery side", which will reduce the risk of damaging any components. Here is what the "shell" looked like after I was done:
 
-> TODO: I'll add a picture of the destruction here later.
+<img src="img/the-destruction.jpg?raw=true" height="400" alt="The destruction" title="The destruction">
+
 
 I think I prefer opening the remote like I did. This means that the remote still has all the buttons still working. This is really usefull for debugging and checking that everything works. For other projects this might be usefull if you want to be able to use the buttons as a double command setup, like [this](https://www.youtube.com/watch?v=olxPqiJcUAQ).
 
@@ -80,7 +81,9 @@ After alot of experimenting with different relays, capacitors and resistors i la
 
 <img src="img/my_design.png?raw=true" height="600" alt="My design" title="My design">
 
-> TODO: add a picture of the finished product.
+IRL this is the result:
+
+<img src="img/doorbell-finished.jpg?raw=true" height="400" alt="Finished product" title="Finished product">
 
 ## NB!
 Note that if you have some other doorbell-circuit you want to include, and don't want the delay-stuff, you can skip the capacitor and the resistor. You also want to connect the bell-circuit to the normally open side in the relay.
